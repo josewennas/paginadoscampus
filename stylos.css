@@ -1,4 +1,5 @@
 @import url(https://db.onlinewebfonts.com/c/e8fafd4bab1ff229bb62067775369b8d?family=Thunderhouse+Pro);
+@import url(https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap);
 
 body {
     background-color: aquamarine;
@@ -18,13 +19,14 @@ body {
 .botaoinscrevase {
 
     background-color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Kalam', cursive;
     font-weight: 900;
     font-size: 30px;
     text-decoration: none;
     border-radius: 0.4em;
     padding: 0.2em 0.2em;
     color: #0040cf;
+
 
 }
 
@@ -33,9 +35,6 @@ body {
     background-color: #39cd98;
     color: #ffffff;
 }
-
-
-
 
 .cabecalho {
     display: grid;
@@ -59,12 +58,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 4em;
+    padding: 1em;
 
 }
 
 .caxias {
-    background-color:#2db5e5;
+    background-color: #2db5e5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,10 +86,11 @@ body {
     padding: 1em;
     border-radius: 0.5em;
 
+
 }
 
 .imagem-campus {
-    padding: 20px;
+    padding: 20px; 
     width: 30em;
 }
 
@@ -111,4 +111,90 @@ body {
     /* display: flex; */
     justify-content: center;
     align-items: center;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .caxias {
+        /* background-color: #7ecfeb; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 1em;
+
+    }
+    
+    .codo {
+        background-color: #7ecfeb;
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* height: 20em;; */
+        padding: 1em;
+
+    }
+
+    .presidentedutra {
+        /* background-color: #7ecfeb; */
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 1em;
+
+    }
+
+    .imagem-campus {
+        padding: 0em;
+        width: 20em;
+        text-align: center;
+    }
+    .logo-topo {
+        width: 20em;
+        padding: 0.1em;
+        text-align: center;
+    }
+
+    .cabecalho{
+        height: 3em;
+    }
+
+    .texto-da-div{
+        display: grid;
+        flex-direction: column;
+        /* margin: 1em; */
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+     } 
+
+    .botaoinscrevase {
+
+        display: grid;
+        align-items: center;
+        background-color: #ffffff;
+        font-family: 'Kalam', cursive;
+        font-weight: 900;
+        font-size: 20px;
+        text-decoration: none;
+        border-radius: 0.4em;
+        text-align: center;
+        color: #0040cf;
+       margin: 0.3em; 
+ 
+    }
+
+    .nome-do-campus {
+        font-family: 'Thunderhouse Pro';
+        font-size: 25px;
+        font-style: normal;
+        color: #023dbe;
+        /* padding: 0em 0em 0.5em 0em; */
+    
+    }
+
+
 }
